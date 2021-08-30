@@ -1,0 +1,117 @@
+.selectWindow {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 3;
+}
+
+.selectWindow__header {
+    padding: 20px;
+    background: #FAFAFA;    
+    box-shadow: 0px 1px 0px #D9D9D9;
+}
+
+.selectWindow__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #272526;
+}
+
+.selectWindow__searchField {
+    height: 50px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.selectWindow__list {
+    list-style: none;
+    cursor: pointer;
+    margin: 0;
+    padding-bottom: 48px;
+    padding-top: 10px;
+    background: #ffff;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.selectWindow__list-item {
+    position: relative;
+}
+
+.selectWindow__list-item-text {
+    position: relative;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #484545;
+}
+
+.selectWindow__buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #FAFAFA;
+    box-shadow: 0px -1px 0px #D9D9D9;
+}
+
+.selectWindow__apply-button {
+    height: 40px;
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #035B77;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.selectWindow__apply-button-text {
+    padding: 15px 20px;
+}
+
+.selectWindow__clear-button {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 15px;
+    text-align: right;
+    color: #000000;
+    opacity: 0.6;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.selectWindow__back-arrow {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.selectWindow__list-item_hidden {
+    display: none;
+}
+
+.selectWindow_visible {
+    display: block;
+}
+
+.selectWindow__sublist {
+    list-style: none;
+    display: none;
+    cursor: pointer;
+}

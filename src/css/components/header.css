@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.header__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #272526;
+}
+
+.header__button_showSelected {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #035B77;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}

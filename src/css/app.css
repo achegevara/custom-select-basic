@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import "./components/container.css";
+@import "./components/header.css";
+@import "./components/selectField.css";
+@import "./components/selectWindow.css";
+@import "./components/checkbox.css";
+@import "./normalize.css";
+
+html, body {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+ul, li {
+    margin-inline-start: 0px;
+    padding-inline-start: 0px;
+}
+
+.multiSelect {
+    z-index: 0;
+}
